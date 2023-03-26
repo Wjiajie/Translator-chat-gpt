@@ -1,5 +1,6 @@
 # Translator-chat-gpt
 一个python脚本，允许你将.vtt字幕格式从源语言翻译为另外一门目标语言，基于 gpt-3.5-turbo实现。
+注意：脚本并不cover .vtt所有情况，仅在youtube 部分.vtt字幕中验证。
 
 
 
