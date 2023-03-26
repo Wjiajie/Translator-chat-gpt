@@ -1,5 +1,5 @@
 # Translator-chat-gpt
-python script for translate src languge (any) to dst languge (any) using gpt-3.5-turbo
+一个python脚本，允许你将.vtt字幕格式从源语言翻译为另外一门目标语言，基于 gpt-3.5-turbo实现。
 
 
 
@@ -25,6 +25,7 @@ vtt_dir_dst = os.path.join("D:/Learn/datasets/cherno-game-engine/vtt-zh") #目�
 
 ### 运行说明
 
+0. 建议新建一个conda虚拟环境
 1. 将你的OPENAI_API_KEY填写在.env文件中
 2. 在translate.py中填写具体的输入输出信息
 3. `python translate.py`
